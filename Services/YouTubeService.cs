@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 public class YouTubeService
 {
     private readonly HttpClient _httpClient;
-    private readonly string _apiKey = "AIzaSyBSMGQ-PxpOvxUJHcoNr201qz1c0m21PQ8"; // Replace with your API Key
+    private readonly string _apiKey = ""; // Replace with your API Key
     private readonly string _apiBaseUrl = "https://www.googleapis.com/youtube/v3/";
 
     public YouTubeService(HttpClient httpClient)
